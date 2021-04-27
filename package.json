@@ -7,8 +7,12 @@
     "lint": "prettier --check \"src/**/*.{js,jsx}\""
   },
   "dependencies": {
+    "@react-three/drei": "^4.3.0",
+    "@react-three/fiber": "^6.0.16",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "recoil": "^0.2.0",
+    "three": "^0.128.0"
   },
   "devDependencies": {
     "@snowpack/plugin-dotenv": "^2.0.5",
